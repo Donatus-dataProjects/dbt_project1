@@ -1,0 +1,14 @@
+dbt_test:
+  outputs:
+    dev:
+      dataset: dbt_project1
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: C:\\Users\\DONATUS\\Desktop\\school\\DataEngr\\dbt_core\\amplified-cat-467820-e2-3320af3fb076.json
+      location: EU
+      method: service-account
+      priority: interactive
+      project: amplified-cat-467820-e2  
+      threads: 4
+      type: bigquery
+  target: dev
